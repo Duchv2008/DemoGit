@@ -18,6 +18,8 @@
 		281F5C5F291BC9630010F8C4 /* DemoGitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F5C5E291BC9630010F8C4 /* DemoGitUITestsLaunchTests.swift */; };
 		281F5C6D291BCBBE0010F8C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F5C6B291BCBBE0010F8C4 /* LoginViewController.swift */; };
 		281F5C6E291BCBBE0010F8C4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 281F5C6C291BCBBE0010F8C4 /* LoginViewController.xib */; };
+		281F5C71291BCCCA0010F8C4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F5C6F291BCCCA0010F8C4 /* RegisterViewController.swift */; };
+		281F5C72291BCCCA0010F8C4 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 281F5C70291BCCCA0010F8C4 /* RegisterViewController.xib */; };
 		281F5C75291BCD6F0010F8C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F5C73291BCD6F0010F8C4 /* HomeViewController.swift */; };
 		281F5C76291BCD6F0010F8C4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 281F5C74291BCD6F0010F8C4 /* HomeViewController.xib */; };
 		43EA9C1F2005C128FA0C5DD9 /* Pods_DemoGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FFEDC7EB9DF3E0B9724299 /* Pods_DemoGit.framework */; };
@@ -58,6 +60,8 @@
 		281F5C5E291BC9630010F8C4 /* DemoGitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		281F5C6B291BCBBE0010F8C4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		281F5C6C291BCBBE0010F8C4 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		281F5C6F291BCCCA0010F8C4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		281F5C70291BCCCA0010F8C4 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		281F5C73291BCD6F0010F8C4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		281F5C74291BCD6F0010F8C4 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		2E0419C71267D8F3A4D1AE99 /* Pods_DemoGitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoGitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +137,8 @@
 				281F5C49291BC9620010F8C4 /* Info.plist */,
 				281F5C6B291BCBBE0010F8C4 /* LoginViewController.swift */,
 				281F5C6C291BCBBE0010F8C4 /* LoginViewController.xib */,
+				281F5C6F291BCCCA0010F8C4 /* RegisterViewController.swift */,
+				281F5C70291BCCCA0010F8C4 /* RegisterViewController.xib */,
 				281F5C73291BCD6F0010F8C4 /* HomeViewController.swift */,
 				281F5C74291BCD6F0010F8C4 /* HomeViewController.xib */,
 			);
@@ -289,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				281F5C6E291BCBBE0010F8C4 /* LoginViewController.xib in Resources */,
+				281F5C72291BCCCA0010F8C4 /* RegisterViewController.xib in Resources */,
 				281F5C48291BC9620010F8C4 /* LaunchScreen.storyboard in Resources */,
 				281F5C76291BCD6F0010F8C4 /* HomeViewController.xib in Resources */,
 				281F5C45291BC9620010F8C4 /* Assets.xcassets in Resources */,
@@ -422,6 +429,7 @@
 			files = (
 				281F5C75291BCD6F0010F8C4 /* HomeViewController.swift in Sources */,
 				281F5C6D291BCBBE0010F8C4 /* LoginViewController.swift in Sources */,
+				281F5C71291BCCCA0010F8C4 /* RegisterViewController.swift in Sources */,
 				281F5C40291BC9600010F8C4 /* ViewController.swift in Sources */,
 				281F5C3C291BC9600010F8C4 /* AppDelegate.swift in Sources */,
 				281F5C3E291BC9600010F8C4 /* SceneDelegate.swift in Sources */,
