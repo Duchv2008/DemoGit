@@ -18,6 +18,8 @@
 		281F5C5F291BC9630010F8C4 /* DemoGitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F5C5E291BC9630010F8C4 /* DemoGitUITestsLaunchTests.swift */; };
 		281F5C6D291BCBBE0010F8C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F5C6B291BCBBE0010F8C4 /* LoginViewController.swift */; };
 		281F5C6E291BCBBE0010F8C4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 281F5C6C291BCBBE0010F8C4 /* LoginViewController.xib */; };
+		281F5C71291BCCCA0010F8C4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F5C6F291BCCCA0010F8C4 /* RegisterViewController.swift */; };
+		281F5C72291BCCCA0010F8C4 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 281F5C70291BCCCA0010F8C4 /* RegisterViewController.xib */; };
 		43EA9C1F2005C128FA0C5DD9 /* Pods_DemoGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FFEDC7EB9DF3E0B9724299 /* Pods_DemoGit.framework */; };
 		5FA8422000B73A6D2FE95790 /* Pods_DemoGitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0419C71267D8F3A4D1AE99 /* Pods_DemoGitTests.framework */; };
 		8783BBBF56E3006E83C12A92 /* Pods_DemoGit_DemoGitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BEF6B66650838143EDD12E /* Pods_DemoGit_DemoGitUITests.framework */; };
@@ -56,6 +58,8 @@
 		281F5C5E291BC9630010F8C4 /* DemoGitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		281F5C6B291BCBBE0010F8C4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		281F5C6C291BCBBE0010F8C4 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		281F5C6F291BCCCA0010F8C4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		281F5C70291BCCCA0010F8C4 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		2E0419C71267D8F3A4D1AE99 /* Pods_DemoGitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoGitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BEF6B66650838143EDD12E /* Pods_DemoGit_DemoGitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoGit_DemoGitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D0C2B73C15CA6A4CC625B2 /* Pods-DemoGitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoGitTests.release.xcconfig"; path = "Target Support Files/Pods-DemoGitTests/Pods-DemoGitTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				281F5C49291BC9620010F8C4 /* Info.plist */,
 				281F5C6B291BCBBE0010F8C4 /* LoginViewController.swift */,
 				281F5C6C291BCBBE0010F8C4 /* LoginViewController.xib */,
+				281F5C6F291BCCCA0010F8C4 /* RegisterViewController.swift */,
+				281F5C70291BCCCA0010F8C4 /* RegisterViewController.xib */,
 			);
 			path = DemoGit;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				281F5C6E291BCBBE0010F8C4 /* LoginViewController.xib in Resources */,
+				281F5C72291BCCCA0010F8C4 /* RegisterViewController.xib in Resources */,
 				281F5C48291BC9620010F8C4 /* LaunchScreen.storyboard in Resources */,
 				281F5C45291BC9620010F8C4 /* Assets.xcassets in Resources */,
 				281F5C43291BC9600010F8C4 /* Main.storyboard in Resources */,
@@ -414,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				281F5C6D291BCBBE0010F8C4 /* LoginViewController.swift in Sources */,
+				281F5C71291BCCCA0010F8C4 /* RegisterViewController.swift in Sources */,
 				281F5C40291BC9600010F8C4 /* ViewController.swift in Sources */,
 				281F5C3C291BC9600010F8C4 /* AppDelegate.swift in Sources */,
 				281F5C3E291BC9600010F8C4 /* SceneDelegate.swift in Sources */,
