@@ -14,6 +14,7 @@
 		28D000E12A87837400ECD3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D000E02A87837400ECD3CA /* Assets.xcassets */; };
 		28D000E42A87837400ECD3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D000E22A87837400ECD3CA /* LaunchScreen.storyboard */; };
 		28D000EE2A8794CD00ECD3CA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D000ED2A8794CD00ECD3CA /* RegisterViewController.swift */; };
+		28D000F02A8795C400ECD3CA /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D000EF2A8795C400ECD3CA /* RegisterViewModel.swift */; };
 		9F1B61BC1B026EA97DE27A8C /* Pods_DemoGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE59593523019ECAD5B14BBF /* Pods_DemoGit.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		28D000E32A87837400ECD3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28D000E52A87837400ECD3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28D000ED2A8794CD00ECD3CA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		28D000EF2A8795C400ECD3CA /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		828654B9551C31E7F452025E /* Pods-DemoGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoGit.debug.xcconfig"; path = "Target Support Files/Pods-DemoGit/Pods-DemoGit.debug.xcconfig"; sourceTree = "<group>"; };
 		CD42C3E970F117D7E014042F /* Pods-DemoGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoGit.release.xcconfig"; path = "Target Support Files/Pods-DemoGit/Pods-DemoGit.release.xcconfig"; sourceTree = "<group>"; };
 		FE59593523019ECAD5B14BBF /* Pods_DemoGit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoGit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 				28D000E02A87837400ECD3CA /* Assets.xcassets */,
 				28D000E22A87837400ECD3CA /* LaunchScreen.storyboard */,
 				28D000E52A87837400ECD3CA /* Info.plist */,
+				28D000EF2A8795C400ECD3CA /* RegisterViewModel.swift */,
 			);
 			path = DemoGit;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28D000DC2A87837300ECD3CA /* ViewController.swift in Sources */,
+				28D000F02A8795C400ECD3CA /* RegisterViewModel.swift in Sources */,
 				28D000D82A87837300ECD3CA /* AppDelegate.swift in Sources */,
 				28D000DA2A87837300ECD3CA /* SceneDelegate.swift in Sources */,
 				28D000EE2A8794CD00ECD3CA /* RegisterViewController.swift in Sources */,
