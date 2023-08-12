@@ -13,6 +13,7 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
         register()
         login()
+        newLogin()
     }
     
     func register() {
@@ -21,5 +22,8 @@ class RegisterViewController: UIViewController {
     
     func login() {
         // Code chức năng login
+    }
+    func newLogin() {
+        
     }
 }
