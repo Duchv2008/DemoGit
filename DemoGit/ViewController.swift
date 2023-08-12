@@ -1,5 +1,5 @@
 import UIKit
-import Alamofire
+
 
 protocol ABCD {
     
@@ -14,4 +14,5 @@ class ViewController: UIViewController, ABCD {
     func testGit() {
         
     }
+    
 }
