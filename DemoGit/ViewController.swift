@@ -1,19 +1,17 @@
-//
-//  ViewController.swift
-//  DemoGit
-//
-//  Created by Hà Văn Đức on 12/08/2023.
-//
-
 import UIKit
+import Alamofire
 
-class ViewController: UIViewController {
+protocol ABCD {
+    
+}
+
+class ViewController: UIViewController, ABCD {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    func testGit() {
+        
+    }
 }
-

@@ -7,4 +7,6 @@ target 'DemoGit' do
 
   # Pods for DemoGit
 
+  pod 'Alamofire'
+  
 end
