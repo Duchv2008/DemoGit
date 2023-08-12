@@ -11,22 +11,20 @@ class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        register2()
         login()
-        register()
-        login()
+        update()
     }
     
-    func register() {
-        // Fix xong bug
-    }
-    
+
     func login() {
         // Code chức năng login
         // Hello from ducv
     }
     
-    func login() {
-        // Code chức năng login
+    
+    func update() {
+        
     }
+    
+    
 }
