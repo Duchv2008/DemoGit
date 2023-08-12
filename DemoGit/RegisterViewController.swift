@@ -18,7 +18,9 @@ class RegisterViewController: UIViewController {
 
     func login() {
         // Code chức năng login
+        // Hello from ducv
     }
+    
     
     func update() {
         
