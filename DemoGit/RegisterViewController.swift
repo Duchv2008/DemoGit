@@ -11,10 +11,30 @@ class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        result()
         login()
         update()
     }
-    
+
+    func result() {
+        var array: [Int] = [2, 3, 7, 8, 6, 10, 15, 16, 19]
+        
+            for i in array {
+                if i % 2 != 0 {
+                    print("số lẻ đầu tiên là \(i)")
+                    break
+                }
+            }
+        var arrayDao = (array.reversed())
+        
+            for k in arrayDao {
+                if k % 2 == 0 {
+                    print("số chẵn cuối cùng là \(k)")
+                    break
+                }
+            }
+        
+    }
 
     func login() {
         // Code chức năng login
