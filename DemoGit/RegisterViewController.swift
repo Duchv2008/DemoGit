@@ -13,8 +13,9 @@ class RegisterViewController: UIViewController {
         super.viewDidLoad()
         result()
         login()
+        update()
     }
-    
+
     func result() {
         var array: [Int] = [2, 3, 7, 8, 6, 10, 15, 16, 19]
         
@@ -34,8 +35,14 @@ class RegisterViewController: UIViewController {
             }
         
     }
-    
+
     func login() {
         // Code chức năng login
     }
+    
+    func update() {
+        
+    }
+    
+    
 }
