@@ -14,6 +14,8 @@ class RegisterViewController: UIViewController {
         register1()
         login1()
         result()
+        update()
+        login()
     }
     
     func register1() {
@@ -25,4 +27,12 @@ class RegisterViewController: UIViewController {
     }
     func result() {
     }
+    func login() {
+    }
+    
+    func update() {
+        
+    }
+    
+    
 }
