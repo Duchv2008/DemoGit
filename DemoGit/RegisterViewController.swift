@@ -11,15 +11,18 @@ class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        register()
-        login()
+        register1()
+        login1()
+        result()
     }
     
-    func register() {
+    func register1() {
         // Fix xong bug
     }
     
-    func login() {
+    func login1() {
         print("tai khoan")
+    }
+    func result() {
     }
 }
