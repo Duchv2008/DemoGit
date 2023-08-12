@@ -20,6 +20,6 @@ class RegisterViewController: UIViewController {
     }
     
     func login() {
-        // Code chức năng login
+        print("tai khoan")
     }
 }
